@@ -1,5 +1,5 @@
 # include "raylib.h"
-
+# include "view/colorschemes.h"
 
 int main(void) {
     const char *message = "Hello World";
@@ -14,7 +14,7 @@ int main(void) {
     SetTargetFPS(fps);
 
     const auto backgroundColor = BLACK;
-    const auto textColor = WHITE;
+    const auto textColor = APP_LIGHT_GREEN;
     const auto primaryButtonColor = GRAY;
     const auto primaryInteractiveColor = DARKGRAY;
     constexpr int buttonWidth = 150;
